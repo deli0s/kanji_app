@@ -1,59 +1,33 @@
-import {DB} from './db.js';
+import {KANJI_CATALOG} from './kanji-catalog.js';
 
-const API='https://kanjiapi.dev/v1/kanji/jlpt-';
-const CACHE_ID='jlpt-kanji-v2';
-
-function normalize(x,level){
-  return {
-    id:`jlpt-${level}-${x.kanji}`,
-    char:x.kanji,
-    meanings:Array.isArray(x.meanings)&&x.meanings.length?x.meanings:[''],
-    onyomi:x.on_readings||[],
-    kunyomi:x.kun_readings||[],
-    level,
-    strokes:[],
-    components:[],
-    strokeCount:x.stroke_count||0,
-    grade:x.grade??null,
-    frequency:x.freq_mainichi_shinbun??null,
-    source:'KANJIDIC2 via kanjiapi.dev'
-  };
-}
-
-async function loadRemoteKanji(){
-  const responses=await Promise.all([1,2,3,4,5].map(async level=>{
-    const r=await fetch(`${API}${level}-enriched`,{cache:'no-store'});
-    if(!r.ok)throw new Error(`JLPT N${level} dataset unavailable`);
-    return {level,data:await r.json()};
-  }));
-
-  const byChar=new Map();
-  for(const {level,data} of responses){
-    for(const item of data){
-      const k=normalize(item,level);
-      if(!byChar.has(k.char)||level>byChar.get(k.char).level)byChar.set(k.char,k);
+function enrichKanji(kanji){
+  const detailed=new Map(kanji.map(k=>[k.char,k]));
+  const generated=KANJI_CATALOG.map((char,index)=>{
+    if(detailed.has(char)){
+      const k={...detailed.get(char)};
+      k.level=index<103?5:index<284?4:index<1023?3:index<1979?1:1;
+      k.available=true;
+      return k;
     }
-  }
-  const result=[...byChar.values()].sort((a,b)=>a.level-b.level||(a.frequency??99999)-(b.frequency??99999)||a.char.localeCompare(b.char));
-  await DB.put('datasets',{id:CACHE_ID,value:result,updatedAt:Date.now()});
-  return result;
+    return {
+      id:`catalog-${index}`,
+      char,
+      meanings:['Carácter japonés'],
+      onyomi:[],
+      kunyomi:[],
+      level:index<103?5:index<284?4:index<1023?3:index<1979?1:1,
+      strokes:[],
+      components:[],
+      available:false
+    };
+  });
+  return generated;
 }
 
 export async function loadData(){
-  const [seed,kana]=await Promise.all([
-    fetch('./data/curriculum.json').then(r=>r.json()),
-    fetch('./data/kana.json').then(r=>r.json())
+  const [c,k]=await Promise.all([
+    fetch('./data/curriculum.json').then(r=>{if(!r.ok)throw new Error('curriculum');return r.json()}),
+    fetch('./data/kana.json').then(r=>{if(!r.ok)throw new Error('kana');return r.json()})
   ]);
-
-  let kanji=seed.kanji||[];
-  const cached=await DB.get('datasets',CACHE_ID).catch(()=>null);
-
-  if(cached?.value?.length){
-    kanji=cached.value;
-  }else{
-    try{kanji=await loadRemoteKanji();}
-    catch{kanji=kanji.map(k=>({...k,level:Math.max(1,Math.min(5,6-(k.level||5)))}));}
-  }
-
-  return {...seed,kanji,kana};
+  return {...c,kanji:enrichKanji(c.kanji),kana:k};
 }
