@@ -1,33 +1,4 @@
 import {KANJI_CATALOG} from './kanji-catalog.js';
-
-function enrichKanji(kanji){
-  const detailed=new Map(kanji.map(k=>[k.char,k]));
-  const generated=KANJI_CATALOG.map((char,index)=>{
-    if(detailed.has(char)){
-      const k={...detailed.get(char)};
-      k.level=index<103?5:index<284?4:index<1023?3:index<1979?1:1;
-      k.available=true;
-      return k;
-    }
-    return {
-      id:`catalog-${index}`,
-      char,
-      meanings:['Carácter japonés'],
-      onyomi:[],
-      kunyomi:[],
-      level:index<103?5:index<284?4:index<1023?3:index<1979?1:1,
-      strokes:[],
-      components:[],
-      available:false
-    };
-  });
-  return generated;
-}
-
-export async function loadData(){
-  const [c,k]=await Promise.all([
-    fetch('./data/curriculum.json').then(r=>{if(!r.ok)throw new Error('curriculum');return r.json()}),
-    fetch('./data/kana.json').then(r=>{if(!r.ok)throw new Error('kana');return r.json()})
-  ]);
-  return {...c,kanji:enrichKanji(c.kanji),kana:k};
-}
+function levelFor(k,index){if(k.jlpt_waller)return Number(String(k.jlpt_waller).slice(1));if(index<103)return 5;if(index<284)return 4;if(index<654)return 3;if(index<1024)return 2;return 1}
+function enrichKanji(kanji){const detailed=new Map(kanji.map(k=>[k.char,k]));return KANJI_CATALOG.map((char,index)=>{const source=detailed.get(char);if(source)return {...source,level:levelFor(source,index),available:true};return{id:`catalog-${index}`,char,meanings:[],onyomi:[],kunyomi:[],level:levelFor({},index),strokes:[],components:[],available:true}})}
+export async function loadData(){const[c,k]=await Promise.all([fetch('./data/curriculum.json').then(r=>{if(!r.ok)throw new Error('curriculum');return r.json()}),fetch('./data/kana.json').then(r=>{if(!r.ok)throw new Error('kana');return r.json()})]);return{...c,kanji:enrichKanji(c.kanji),kana:k}}

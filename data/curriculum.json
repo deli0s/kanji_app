@@ -1,1 +1,1272 @@
-{"version":2,"sourcePolicy":"Curated seed records plus the 2,136-kanji learner inventory. Generated catalog entries are inventory-only until enriched with readings, meanings and stroke data.","kanji":[{"id":"k1","char":"日","meanings":["día","sol"],"onyomi":["ニチ","ジツ"],"kunyomi":["ひ","か"],"level":5,"strokes":[[[18,18],[88,18]],[[82,18],[82,88],[18,88]],[[18,53],[82,53]]],"components":["日"]},{"id":"k2","char":"月","meanings":["mes","luna"],"onyomi":["ゲツ","ガツ"],"kunyomi":["つき"],"level":5,"strokes":[[[35,15],[28,45],[22,88]],[[35,15],[82,15],[82,88]],[[31,48],[75,48]],[[28,70],[75,70]]],"components":["月"]},{"id":"k3","char":"人","meanings":["persona"],"onyomi":["ジン","ニン"],"kunyomi":["ひと"],"level":5,"strokes":[[[49,16],[39,48],[20,86]],[[51,18],[61,49],[88,86]]],"components":["人"]},{"id":"k4","char":"大","meanings":["grande"],"onyomi":["ダイ","タイ"],"kunyomi":["おお-きい"],"level":5,"strokes":[[[50,14],[50,88]],[[16,43],[84,43]],[[50,43],[22,87]]],"components":["大"]},{"id":"k5","char":"学","meanings":["estudiar","aprendizaje"],"onyomi":["ガク"],"kunyomi":["まな-ぶ"],"level":5,"strokes":[[[20,22],[80,22]],[[35,10],[50,30],[65,10]],[[25,42],[75,42]],[[50,42],[50,88]],[[28,64],[72,64]],[[28,82],[72,82]]],"components":["子","⺍"]},{"id":"k6","char":"生","meanings":["vida","nacer"],"onyomi":["セイ","ショウ"],"kunyomi":["い-きる","う-む"],"level":5,"strokes":[[[51,12],[45,38]],[[22,28],[79,28]],[[50,39],[50,87]],[[22,55],[79,55]],[[21,84],[82,84]]],"components":["生"]},{"id":"k7","char":"先","meanings":["antes","anterior"],"onyomi":["セン"],"kunyomi":["さき"],"level":5,"strokes":[[[45,12],[30,43]],[[20,28],[73,28]],[[49,17],[70,43]],[[22,51],[78,51]],[[51,50],[51,88]],[[33,88],[69,88]]],"components":["⺧","儿"]},{"id":"k8","char":"行","meanings":["ir","hacer"],"onyomi":["コウ","ギョウ"],"kunyomi":["い-く","おこな-う"],"level":5,"strokes":[[[20,22],[43,22]],[[20,48],[43,48]],[[30,13],[30,88]],[[54,20],[85,20]],[[55,50],[85,50]],[[55,82],[85,82]]],"components":["彳","行"]},{"id":"k9","char":"見","meanings":["ver","mirar"],"onyomi":["ケン"],"kunyomi":["み-る"],"level":5,"strokes":[[[22,18],[78,18]],[[22,42],[78,42]],[[22,18],[22,68]],[[78,18],[78,68]],[[22,68],[78,68]],[[50,18],[50,68]],[[42,74],[30,88]],[[58,74],[72,88]]],"components":["目","儿"]},{"id":"k10","char":"食","meanings":["comer","comida"],"onyomi":["ショク"],"kunyomi":["た-べる","く-う"],"level":5,"strokes":[[[24,22],[50,12],[76,22]],[[26,31],[74,31]],[[50,31],[50,52]],[[28,52],[73,52]],[[30,62],[23,84]],[[50,60],[50,87]],[[70,61],[79,84]]],"components":["食"]}],"vocab":[{"id":"v1","word":"日本","reading":"にほん","meaning":{"es":"Japón","en":"Japan"},"kanji":["k1"],"level":1,"sentence":"日本へ行きます。","sentenceEs":"Voy a Japón."},{"id":"v2","word":"日曜日","reading":"にちようび","meaning":{"es":"domingo","en":"Sunday"},"kanji":["k1"],"level":1,"sentence":"日曜日に休みます。","sentenceEs":"Descanso el domingo."},{"id":"v3","word":"月曜日","reading":"げつようび","meaning":{"es":"lunes","en":"Monday"},"kanji":["k2"],"level":1,"sentence":"月曜日に学校へ行きます。","sentenceEs":"Voy a la escuela el lunes."},{"id":"v4","word":"人","reading":"ひと","meaning":{"es":"persona","en":"person"},"kanji":["k3"],"level":1,"sentence":"あの人は先生です。","sentenceEs":"Esa persona es profesor/a."},{"id":"v5","word":"大学","reading":"だいがく","meaning":{"es":"universidad","en":"university"},"kanji":["k4","k5"],"level":1,"sentence":"大学で日本語を学びます。","sentenceEs":"Estudio japonés en la universidad."},{"id":"v6","word":"学生","reading":"がくせい","meaning":{"es":"estudiante","en":"student"},"kanji":["k5","k6"],"level":1,"sentence":"私は学生です。","sentenceEs":"Soy estudiante."},{"id":"v7","word":"先生","reading":"せんせい","meaning":{"es":"profesor/a","en":"teacher"},"kanji":["k7","k6"],"level":1,"sentence":"先生に聞きます。","sentenceEs":"Pregunto al profesor/a."},{"id":"v8","word":"行く","reading":"いく","meaning":{"es":"ir","en":"to go"},"kanji":["k8"],"level":1,"sentence":"学校へ行きます。","sentenceEs":"Voy a la escuela."},{"id":"v9","word":"見る","reading":"みる","meaning":{"es":"ver","en":"to see"},"kanji":["k9"],"level":1,"sentence":"映画を見ます。","sentenceEs":"Veo una película."},{"id":"v10","word":"食べる","reading":"たべる","meaning":{"es":"comer","en":"to eat"},"kanji":["k10"],"level":1,"sentence":"ご飯を食べます。","sentenceEs":"Como."}],"grammar":[{"id":"g1","title":"は: tema","level":1,"explanation":{"es":"は marca el tema de la oración. No significa siempre 'es'; presenta de qué estamos hablando.","en":"は marks the topic of a sentence."},"pattern":"N は ...です","example":"私は学生です。","translation":"Soy estudiante.","exercise":{"type":"choice","question":"¿Qué función cumple は aquí?","choices":["Marca el tema","Marca el objeto directo","Marca el lugar"],"answer":0}},{"id":"g2","title":"を: objeto","level":1,"explanation":{"es":"を marca normalmente el objeto directo de una acción. Se pronuncia 'o'.","en":"を commonly marks the direct object."},"pattern":"N を V","example":"ご飯を食べます。","translation":"Como.","exercise":{"type":"choice","question":"Completa: 映画___見ます。","choices":["は","を","に"],"answer":1}},{"id":"g3","title":"に: destino / tiempo","level":1,"explanation":{"es":"に puede marcar un punto de destino o un momento concreto, entre otros usos.","en":"に can mark a destination or a specific time, among other uses."},"pattern":"Lugar に 行きます","example":"大学に行きます。","translation":"Voy a la universidad.","exercise":{"type":"choice","question":"Completa: 学校___行きます。","choices":["に","を","で"],"answer":0}}],"culture":[{"title":"です y la cortesía","body":"です aparece en el registro cortés y declarativo. No equivale mecánicamente a un único verbo español. El nivel de cortesía depende del contexto y de la relación entre hablantes."},{"title":"El silencio conversacional","body":"Las pausas y respuestas breves pueden cumplir funciones conversacionales distintas. Conviene aprender expresiones como そうですか dentro de situaciones, no como traducciones palabra por palabra."}]}
+{
+  "version": 2,
+  "sourcePolicy": "Curated seed records plus the 2,136-kanji learner inventory. Generated catalog entries are inventory-only until enriched with readings, meanings and stroke data.",
+  "kanji": [
+    {
+      "id": "k1",
+      "char": "日",
+      "meanings": [
+        "día",
+        "sol"
+      ],
+      "onyomi": [
+        "ニチ",
+        "ジツ"
+      ],
+      "kunyomi": [
+        "ひ",
+        "か"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            18,
+            18
+          ],
+          [
+            88,
+            18
+          ]
+        ],
+        [
+          [
+            82,
+            18
+          ],
+          [
+            82,
+            88
+          ],
+          [
+            18,
+            88
+          ]
+        ],
+        [
+          [
+            18,
+            53
+          ],
+          [
+            82,
+            53
+          ]
+        ]
+      ],
+      "components": [
+        "日"
+      ]
+    },
+    {
+      "id": "k2",
+      "char": "月",
+      "meanings": [
+        "mes",
+        "luna"
+      ],
+      "onyomi": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "kunyomi": [
+        "つき"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            35,
+            15
+          ],
+          [
+            28,
+            45
+          ],
+          [
+            22,
+            88
+          ]
+        ],
+        [
+          [
+            35,
+            15
+          ],
+          [
+            82,
+            15
+          ],
+          [
+            82,
+            88
+          ]
+        ],
+        [
+          [
+            31,
+            48
+          ],
+          [
+            75,
+            48
+          ]
+        ],
+        [
+          [
+            28,
+            70
+          ],
+          [
+            75,
+            70
+          ]
+        ]
+      ],
+      "components": [
+        "月"
+      ]
+    },
+    {
+      "id": "k3",
+      "char": "人",
+      "meanings": [
+        "persona"
+      ],
+      "onyomi": [
+        "ジン",
+        "ニン"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            49,
+            16
+          ],
+          [
+            39,
+            48
+          ],
+          [
+            20,
+            86
+          ]
+        ],
+        [
+          [
+            51,
+            18
+          ],
+          [
+            61,
+            49
+          ],
+          [
+            88,
+            86
+          ]
+        ]
+      ],
+      "components": [
+        "人"
+      ]
+    },
+    {
+      "id": "k4",
+      "char": "大",
+      "meanings": [
+        "grande"
+      ],
+      "onyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "kunyomi": [
+        "おお-きい"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            50,
+            14
+          ],
+          [
+            50,
+            88
+          ]
+        ],
+        [
+          [
+            16,
+            43
+          ],
+          [
+            84,
+            43
+          ]
+        ],
+        [
+          [
+            50,
+            43
+          ],
+          [
+            22,
+            87
+          ]
+        ]
+      ],
+      "components": [
+        "大"
+      ]
+    },
+    {
+      "id": "k5",
+      "char": "学",
+      "meanings": [
+        "estudiar",
+        "aprendizaje"
+      ],
+      "onyomi": [
+        "ガク"
+      ],
+      "kunyomi": [
+        "まな-ぶ"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            20,
+            22
+          ],
+          [
+            80,
+            22
+          ]
+        ],
+        [
+          [
+            35,
+            10
+          ],
+          [
+            50,
+            30
+          ],
+          [
+            65,
+            10
+          ]
+        ],
+        [
+          [
+            25,
+            42
+          ],
+          [
+            75,
+            42
+          ]
+        ],
+        [
+          [
+            50,
+            42
+          ],
+          [
+            50,
+            88
+          ]
+        ],
+        [
+          [
+            28,
+            64
+          ],
+          [
+            72,
+            64
+          ]
+        ],
+        [
+          [
+            28,
+            82
+          ],
+          [
+            72,
+            82
+          ]
+        ]
+      ],
+      "components": [
+        "子",
+        "⺍"
+      ]
+    },
+    {
+      "id": "k6",
+      "char": "生",
+      "meanings": [
+        "vida",
+        "nacer"
+      ],
+      "onyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "kunyomi": [
+        "い-きる",
+        "う-む"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            51,
+            12
+          ],
+          [
+            45,
+            38
+          ]
+        ],
+        [
+          [
+            22,
+            28
+          ],
+          [
+            79,
+            28
+          ]
+        ],
+        [
+          [
+            50,
+            39
+          ],
+          [
+            50,
+            87
+          ]
+        ],
+        [
+          [
+            22,
+            55
+          ],
+          [
+            79,
+            55
+          ]
+        ],
+        [
+          [
+            21,
+            84
+          ],
+          [
+            82,
+            84
+          ]
+        ]
+      ],
+      "components": [
+        "生"
+      ]
+    },
+    {
+      "id": "k7",
+      "char": "先",
+      "meanings": [
+        "antes",
+        "anterior"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "さき"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            45,
+            12
+          ],
+          [
+            30,
+            43
+          ]
+        ],
+        [
+          [
+            20,
+            28
+          ],
+          [
+            73,
+            28
+          ]
+        ],
+        [
+          [
+            49,
+            17
+          ],
+          [
+            70,
+            43
+          ]
+        ],
+        [
+          [
+            22,
+            51
+          ],
+          [
+            78,
+            51
+          ]
+        ],
+        [
+          [
+            51,
+            50
+          ],
+          [
+            51,
+            88
+          ]
+        ],
+        [
+          [
+            33,
+            88
+          ],
+          [
+            69,
+            88
+          ]
+        ]
+      ],
+      "components": [
+        "⺧",
+        "儿"
+      ]
+    },
+    {
+      "id": "k8",
+      "char": "行",
+      "meanings": [
+        "ir",
+        "hacer"
+      ],
+      "onyomi": [
+        "コウ",
+        "ギョウ"
+      ],
+      "kunyomi": [
+        "い-く",
+        "おこな-う"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            20,
+            22
+          ],
+          [
+            43,
+            22
+          ]
+        ],
+        [
+          [
+            20,
+            48
+          ],
+          [
+            43,
+            48
+          ]
+        ],
+        [
+          [
+            30,
+            13
+          ],
+          [
+            30,
+            88
+          ]
+        ],
+        [
+          [
+            54,
+            20
+          ],
+          [
+            85,
+            20
+          ]
+        ],
+        [
+          [
+            55,
+            50
+          ],
+          [
+            85,
+            50
+          ]
+        ],
+        [
+          [
+            55,
+            82
+          ],
+          [
+            85,
+            82
+          ]
+        ]
+      ],
+      "components": [
+        "彳",
+        "行"
+      ]
+    },
+    {
+      "id": "k9",
+      "char": "見",
+      "meanings": [
+        "ver",
+        "mirar"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "み-る"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            22,
+            18
+          ],
+          [
+            78,
+            18
+          ]
+        ],
+        [
+          [
+            22,
+            42
+          ],
+          [
+            78,
+            42
+          ]
+        ],
+        [
+          [
+            22,
+            18
+          ],
+          [
+            22,
+            68
+          ]
+        ],
+        [
+          [
+            78,
+            18
+          ],
+          [
+            78,
+            68
+          ]
+        ],
+        [
+          [
+            22,
+            68
+          ],
+          [
+            78,
+            68
+          ]
+        ],
+        [
+          [
+            50,
+            18
+          ],
+          [
+            50,
+            68
+          ]
+        ],
+        [
+          [
+            42,
+            74
+          ],
+          [
+            30,
+            88
+          ]
+        ],
+        [
+          [
+            58,
+            74
+          ],
+          [
+            72,
+            88
+          ]
+        ]
+      ],
+      "components": [
+        "目",
+        "儿"
+      ]
+    },
+    {
+      "id": "k10",
+      "char": "食",
+      "meanings": [
+        "comer",
+        "comida"
+      ],
+      "onyomi": [
+        "ショク"
+      ],
+      "kunyomi": [
+        "た-べる",
+        "く-う"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            24,
+            22
+          ],
+          [
+            50,
+            12
+          ],
+          [
+            76,
+            22
+          ]
+        ],
+        [
+          [
+            26,
+            31
+          ],
+          [
+            74,
+            31
+          ]
+        ],
+        [
+          [
+            50,
+            31
+          ],
+          [
+            50,
+            52
+          ]
+        ],
+        [
+          [
+            28,
+            52
+          ],
+          [
+            73,
+            52
+          ]
+        ],
+        [
+          [
+            30,
+            62
+          ],
+          [
+            23,
+            84
+          ]
+        ],
+        [
+          [
+            50,
+            60
+          ],
+          [
+            50,
+            87
+          ]
+        ],
+        [
+          [
+            70,
+            61
+          ],
+          [
+            79,
+            84
+          ]
+        ]
+      ],
+      "components": [
+        "食"
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "日本",
+      "reading": "にほん",
+      "meaning": {
+        "es": "Japón",
+        "en": "Japan"
+      },
+      "kanji": [
+        "k1"
+      ],
+      "level": 1,
+      "sentence": "日本へ行きます。",
+      "sentenceEs": "Voy a Japón."
+    },
+    {
+      "id": "v2",
+      "word": "日曜日",
+      "reading": "にちようび",
+      "meaning": {
+        "es": "domingo",
+        "en": "Sunday"
+      },
+      "kanji": [
+        "k1"
+      ],
+      "level": 1,
+      "sentence": "日曜日に休みます。",
+      "sentenceEs": "Descanso el domingo."
+    },
+    {
+      "id": "v3",
+      "word": "月曜日",
+      "reading": "げつようび",
+      "meaning": {
+        "es": "lunes",
+        "en": "Monday"
+      },
+      "kanji": [
+        "k2"
+      ],
+      "level": 1,
+      "sentence": "月曜日に学校へ行きます。",
+      "sentenceEs": "Voy a la escuela el lunes."
+    },
+    {
+      "id": "v4",
+      "word": "人",
+      "reading": "ひと",
+      "meaning": {
+        "es": "persona",
+        "en": "person"
+      },
+      "kanji": [
+        "k3"
+      ],
+      "level": 1,
+      "sentence": "あの人は先生です。",
+      "sentenceEs": "Esa persona es profesor/a."
+    },
+    {
+      "id": "v5",
+      "word": "大学",
+      "reading": "だいがく",
+      "meaning": {
+        "es": "universidad",
+        "en": "university"
+      },
+      "kanji": [
+        "k4",
+        "k5"
+      ],
+      "level": 1,
+      "sentence": "大学で日本語を学びます。",
+      "sentenceEs": "Estudio japonés en la universidad."
+    },
+    {
+      "id": "v6",
+      "word": "学生",
+      "reading": "がくせい",
+      "meaning": {
+        "es": "estudiante",
+        "en": "student"
+      },
+      "kanji": [
+        "k5",
+        "k6"
+      ],
+      "level": 1,
+      "sentence": "私は学生です。",
+      "sentenceEs": "Soy estudiante."
+    },
+    {
+      "id": "v7",
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning": {
+        "es": "profesor/a",
+        "en": "teacher"
+      },
+      "kanji": [
+        "k7",
+        "k6"
+      ],
+      "level": 1,
+      "sentence": "先生に聞きます。",
+      "sentenceEs": "Pregunto al profesor/a."
+    },
+    {
+      "id": "v8",
+      "word": "行く",
+      "reading": "いく",
+      "meaning": {
+        "es": "ir",
+        "en": "to go"
+      },
+      "kanji": [
+        "k8"
+      ],
+      "level": 1,
+      "sentence": "学校へ行きます。",
+      "sentenceEs": "Voy a la escuela."
+    },
+    {
+      "id": "v9",
+      "word": "見る",
+      "reading": "みる",
+      "meaning": {
+        "es": "ver",
+        "en": "to see"
+      },
+      "kanji": [
+        "k9"
+      ],
+      "level": 1,
+      "sentence": "映画を見ます。",
+      "sentenceEs": "Veo una película."
+    },
+    {
+      "id": "v10",
+      "word": "食べる",
+      "reading": "たべる",
+      "meaning": {
+        "es": "comer",
+        "en": "to eat"
+      },
+      "kanji": [
+        "k10"
+      ],
+      "level": 1,
+      "sentence": "ご飯を食べます。",
+      "sentenceEs": "Como."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "level": 5,
+      "title": "は: tema",
+      "explanation": {
+        "es": "は marca el tema de la oración. En español muchas veces no se traduce literalmente: indica de qué estamos hablando."
+      },
+      "example": "私は学生です。",
+      "translation": "Soy estudiante."
+    },
+    {
+      "id": "g2",
+      "level": 5,
+      "title": "です: registro cortés",
+      "explanation": {
+        "es": "です cierra de forma cortés una oración nominal o adjetival. No corresponde siempre a una sola palabra española."
+      },
+      "example": "これは本です。",
+      "translation": "Esto es un libro."
+    },
+    {
+      "id": "g3",
+      "level": 5,
+      "title": "が: sujeto o información nueva",
+      "explanation": {
+        "es": "が puede señalar quién o qué realiza una acción, especialmente al presentar o destacar información."
+      },
+      "example": "猫がいます。",
+      "translation": "Hay un gato."
+    },
+    {
+      "id": "g4",
+      "level": 5,
+      "title": "を: objeto directo",
+      "explanation": {
+        "es": "を marca aquello sobre lo que recae directamente una acción. En este uso se pronuncia o."
+      },
+      "example": "水を飲みます。",
+      "translation": "Bebo agua."
+    },
+    {
+      "id": "g5",
+      "level": 5,
+      "title": "に: destino y momento",
+      "explanation": {
+        "es": "に se usa, entre otras funciones, para marcar destinos y momentos concretos."
+      },
+      "example": "学校に行きます。",
+      "translation": "Voy al colegio."
+    },
+    {
+      "id": "g6",
+      "level": 5,
+      "title": "で: lugar de la acción",
+      "explanation": {
+        "es": "で indica el lugar donde ocurre una acción. No es lo mismo que に, que suele marcar destino o existencia."
+      },
+      "example": "家で勉強します。",
+      "translation": "Estudio en casa."
+    },
+    {
+      "id": "g7",
+      "level": 5,
+      "title": "これ・それ・あれ",
+      "explanation": {
+        "es": "Los demostrativos distinguen objetos según su relación con quien habla y quien escucha."
+      },
+      "example": "これは何ですか。",
+      "translation": "¿Qué es esto?"
+    },
+    {
+      "id": "g8",
+      "level": 5,
+      "title": "ます: presente/futuro cortés",
+      "explanation": {
+        "es": "La forma ます expresa el registro cortés. El tiempo depende del contexto: puede ser presente habitual o futuro."
+      },
+      "example": "毎日働きます。",
+      "translation": "Trabajo todos los días."
+    },
+    {
+      "id": "g9",
+      "level": 4,
+      "title": "ました: pasado cortés",
+      "explanation": {
+        "es": "La terminación ました marca una acción completada en pasado en registro cortés."
+      },
+      "example": "昨日映画を見ました。",
+      "translation": "Ayer vi una película."
+    },
+    {
+      "id": "g10",
+      "level": 4,
+      "title": "ません: negación cortés",
+      "explanation": {
+        "es": "ません forma la negación de la forma cortés en presente o futuro."
+      },
+      "example": "肉を食べません。",
+      "translation": "No como carne."
+    },
+    {
+      "id": "g11",
+      "level": 4,
+      "title": "たい: querer hacer",
+      "explanation": {
+        "es": "たい se añade a la raíz de la forma ます para expresar el deseo de hacer algo."
+      },
+      "example": "日本へ行きたいです。",
+      "translation": "Quiero ir a Japón."
+    },
+    {
+      "id": "g12",
+      "level": 4,
+      "title": "ている: acción en curso / estado",
+      "explanation": {
+        "es": "ている puede expresar una acción que está ocurriendo o un estado resultante, según el verbo."
+      },
+      "example": "今、本を読んでいます。",
+      "translation": "Ahora estoy leyendo un libro."
+    },
+    {
+      "id": "g13",
+      "level": 3,
+      "title": "から: causa",
+      "explanation": {
+        "es": "から puede introducir la razón de algo. En muchos casos equivale a «porque» o «ya que»."
+      },
+      "example": "雨だから、行きません。",
+      "translation": "Como llueve, no voy."
+    },
+    {
+      "id": "g14",
+      "level": 3,
+      "title": "てもいい: permiso",
+      "explanation": {
+        "es": "てもいい expresa que algo está permitido."
+      },
+      "example": "ここで写真を撮ってもいいです。",
+      "translation": "Aquí se pueden hacer fotos."
+    },
+    {
+      "id": "g15",
+      "level": 3,
+      "title": "なければならない: obligación",
+      "explanation": {
+        "es": "Esta construcción expresa obligación o necesidad. En español suele ser «tener que» o «deber»."
+      },
+      "example": "勉強しなければなりません。",
+      "translation": "Tengo que estudiar."
+    },
+    {
+      "id": "g16",
+      "level": 3,
+      "title": "より / ほうが: comparación",
+      "explanation": {
+        "es": "より marca el elemento de referencia y ほうが destaca el elemento comparado."
+      },
+      "example": "電車のほうが速いです。",
+      "translation": "El tren es más rápido."
+    },
+    {
+      "id": "g17",
+      "level": 2,
+      "title": "そうだ: apariencia",
+      "explanation": {
+        "es": "Con este uso, そうだ indica que algo parece estar de una determinada manera según lo que percibimos."
+      },
+      "example": "雨が降りそうです。",
+      "translation": "Parece que va a llover."
+    },
+    {
+      "id": "g18",
+      "level": 2,
+      "title": "ように: objetivo o manera",
+      "explanation": {
+        "es": "ように conecta una meta, capacidad o resultado deseado con la acción que lo busca."
+      },
+      "example": "忘れないように書きます。",
+      "translation": "Lo escribo para no olvidarlo."
+    },
+    {
+      "id": "g19",
+      "level": 2,
+      "title": "ながら: mientras",
+      "explanation": {
+        "es": "ながら une dos acciones realizadas simultáneamente por el mismo sujeto."
+      },
+      "example": "音楽を聞きながら勉強します。",
+      "translation": "Estudio mientras escucho música."
+    },
+    {
+      "id": "g20",
+      "level": 1,
+      "title": "わけではない: no significa necesariamente",
+      "explanation": {
+        "es": "Esta construcción niega una interpretación total o general y permite matizar una afirmación."
+      },
+      "example": "嫌いなわけではありません。",
+      "translation": "No es que me disguste."
+    }
+  ],
+  "culture": [
+    {
+      "title": "お辞儀: inclinarse",
+      "body": "La inclinación del cuerpo aparece en saludos, agradecimientos y disculpas. La profundidad y duración dependen de la situación y la relación entre las personas."
+    },
+    {
+      "title": "敬語: lenguaje honorífico",
+      "body": "El japonés distingue distintos niveles de cortesía. No consiste solo en añadir です y ます: hay formas especiales para hablar con respeto o humildad."
+    },
+    {
+      "title": "靴を脱ぐ: quitarse los zapatos",
+      "body": "En muchas casas japonesas se dejan los zapatos en la entrada y se entra al interior con calcetines o calzado de interior."
+    },
+    {
+      "title": "いただきます",
+      "body": "Se dice antes de comer y expresa agradecimiento por la comida y por quienes han contribuido a que llegue a la mesa."
+    },
+    {
+      "title": "ごちそうさま",
+      "body": "Se dice después de comer para expresar agradecimiento por la comida. Es una expresión cotidiana."
+    },
+    {
+      "title": "Silencio en el transporte",
+      "body": "En trenes y otros transportes públicos se suele mantener un volumen bajo. Las llamadas pueden resultar molestas en determinados espacios."
+    },
+    {
+      "title": "名刺: tarjetas de visita",
+      "body": "En contextos profesionales, intercambiar tarjetas sigue siendo una práctica reconocible. Presentarlas y recibirlas con ambas manos puede transmitir formalidad."
+    },
+    {
+      "title": "先輩 y 後輩",
+      "body": "Describen relaciones basadas en antigüedad o experiencia dentro de un grupo. No equivalen exactamente a jefe y subordinado."
+    },
+    {
+      "title": "コンビニ",
+      "body": "Los konbini forman parte de la vida urbana cotidiana. Además de comida y bebida, muchos ofrecen pagos, impresión y recogida de paquetes."
+    },
+    {
+      "title": "季節 y lenguaje",
+      "body": "Las estaciones aparecen constantemente en vocabulario, saludos y expresiones. Hablar del tiempo puede funcionar también como una forma natural de iniciar una conversación."
+    },
+    {
+      "title": "おにぎり",
+      "body": "El onigiri es una comida cotidiana hecha normalmente con arroz y diferentes rellenos. Es vocabulario cultural frecuente."
+    },
+    {
+      "title": "お風呂 y la bañera",
+      "body": "En muchos hogares la ducha y el baño se conciben como pasos distintos: primero se lava el cuerpo y después se entra en la bañera."
+    },
+    {
+      "title": "駅: la estación",
+      "body": "Las estaciones suelen integrar tiendas, restaurantes y servicios. Por eso 駅 aparece con frecuencia en conversaciones y textos cotidianos."
+    },
+    {
+      "title": "名前 y orden de los nombres",
+      "body": "En japonés es habitual presentar primero el apellido y después el nombre en contextos japoneses. En materiales internacionales puede aparecer el orden occidental."
+    },
+    {
+      "title": "季節の食べ物",
+      "body": "Los alimentos de temporada aparecen a menudo en menús y conversaciones. Este vocabulario ayuda a entender referencias cotidianas sin convertirlas en simples curiosidades."
+    }
+  ],
+  "reading": [
+    {
+      "id": "r1",
+      "title": "朝",
+      "sentence": "朝、六時に起きます。水を飲んで、朝ご飯を食べます。",
+      "sentenceEs": "Me levanto a las seis. Bebo agua y desayuno。",
+      "focus": "起きる"
+    },
+    {
+      "id": "r2",
+      "title": "学校",
+      "sentence": "毎朝、駅まで歩きます。それから電車に乗ります。学校は駅の近くです。",
+      "sentenceEs": "Cada mañana camino hasta la estación. Después cojo el tren. La escuela está cerca de la estación.",
+      "focus": "駅"
+    },
+    {
+      "id": "r3",
+      "title": "買い物",
+      "sentence": "今日はスーパーへ行きます。野菜とパンを買いたいです。牛乳も買います。",
+      "sentenceEs": "Hoy voy al supermercado. Quiero comprar verduras y pan. También compro leche.",
+      "focus": "買う"
+    },
+    {
+      "id": "r4",
+      "title": "週末",
+      "sentence": "土曜日は友だちと町へ行きました。昼ご飯を食べて、本屋で本を見ました。",
+      "sentenceEs": "El sábado fui al pueblo con un amigo. Comimos y miramos libros en una librería.",
+      "focus": "町"
+    },
+    {
+      "id": "r5",
+      "title": "天気",
+      "sentence": "今日は少し寒いですが、天気がいいです。午後は公園を散歩するつもりです。",
+      "sentenceEs": "Hoy hace un poco de frío, pero hace buen tiempo. Por la tarde pienso pasear por el parque.",
+      "focus": "天気"
+    },
+    {
+      "id": "r6",
+      "title": "電車",
+      "sentence": "電車の中では静かにします。音楽を聞く人もいますが、大きな声で話す人は少ないです。",
+      "sentenceEs": "En el tren se suele estar en silencio. Algunas personas escuchan música, pero pocas hablan en voz alta.",
+      "focus": "電車"
+    },
+    {
+      "id": "r7",
+      "title": "家",
+      "sentence": "日本の家では、玄関で靴を脱ぐことがあります。家の中ではスリッパを使うこともあります。",
+      "sentenceEs": "En las casas japonesas a veces se quitan los zapatos en la entrada. Dentro también se pueden usar zapatillas.",
+      "focus": "玄関"
+    },
+    {
+      "id": "r8",
+      "title": "勉強",
+      "sentence": "日本語を勉強するとき、漢字だけではなく、言葉と文も一緒に覚えると便利です。",
+      "sentenceEs": "Al estudiar japonés, es útil aprender no solo kanji, sino también palabras y frases juntos.",
+      "focus": "勉強"
+    },
+    {
+      "id": "r9",
+      "title": "仕事",
+      "sentence": "仕事が終わったあと、駅の近くの店で夕食を食べました。店は小さいですが、とても静かでした。",
+      "sentenceEs": "Después del trabajo cené en un restaurante cerca de la estación. Era pequeño, pero muy tranquilo.",
+      "focus": "仕事"
+    },
+    {
+      "id": "r10",
+      "title": "休日",
+      "sentence": "休みの日には、朝ゆっくり起きることがあります。午後は本を読んだり、映画を見たりします。",
+      "sentenceEs": "En los días libres a veces me levanto tranquilamente por la mañana. Por la tarde leo libros o veo películas.",
+      "focus": "休み"
+    },
+    {
+      "id": "r11",
+      "title": "旅行",
+      "sentence": "来月、友だちと京都へ旅行する予定です。古い寺を見たり、町を歩いたりしたいです。",
+      "sentenceEs": "El mes que viene tengo previsto viajar a Kioto con un amigo. Quiero visitar templos antiguos y pasear por la ciudad.",
+      "focus": "旅行"
+    },
+    {
+      "id": "r12",
+      "title": "病院",
+      "sentence": "昨日から少し体の調子が悪いので、今日は病院へ行きます。薬をもらう予定です。",
+      "sentenceEs": "Como desde ayer me encuentro un poco mal, hoy voy al hospital. Tengo previsto que me den medicación.",
+      "focus": "病院"
+    },
+    {
+      "id": "r13",
+      "title": "予定",
+      "sentence": "来週は仕事が忙しくなりそうです。でも、週末には時間があるので、家でゆっくり休みたいです。",
+      "sentenceEs": "La semana que viene parece que tendré mucho trabajo. Pero el fin de semana tendré tiempo y quiero descansar en casa.",
+      "focus": "予定"
+    },
+    {
+      "id": "r14",
+      "title": "会話",
+      "sentence": "「明日、何をしますか」「友だちと映画を見ます。あなたは？」「私は家で勉強するつもりです」",
+      "sentenceEs": "«¿Qué harás mañana?» «Veré una película con un amigo. ¿Y tú?» «Yo pienso estudiar en casa».",
+      "focus": "明日"
+    },
+    {
+      "id": "r15",
+      "title": "生活",
+      "sentence": "日本語では、同じ言葉でも相手との関係によって表現が変わることがあります。まずは普通の丁寧な形から覚えると使いやすいです。",
+      "sentenceEs": "En japonés, una misma idea puede expresarse de forma diferente según la relación con la otra persona. Al principio resulta útil dominar la forma cortés básica.",
+      "focus": "丁寧"
+    }
+  ]
+}
