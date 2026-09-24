@@ -1,0 +1,3 @@
+import {DB} from './db.js';
+export function schedule(itemId,quality){const now=Date.now();let interval=quality>=3?1:0.25;return DB.get('reviews',itemId).then(x=>{const n=x?.n||0;interval=quality>=3?Math.min(60,Math.max(1,Math.round((x?.interval||1)*1.8))):Math.max(0.1,Math.round((x?.interval||1)*0.35*10)/10);return DB.put('reviews',{id:itemId,n:n+1,quality,interval,due:now+interval*86400000,last:now})})}
+export async function progress(itemId,type='learn'){const p=await DB.get('progress',itemId)||{id:itemId,seen:0,correct:0,wrong:0};p.seen++;if(type==='correct')p.correct++;if(type==='wrong')p.wrong++;p.updated=Date.now();await DB.put('progress',p);return p}
