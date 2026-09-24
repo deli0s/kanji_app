@@ -1,27 +1,979 @@
-{"version":1,"sourcePolicy":"Curated seed curriculum. Expand from licensed structured sources; generated content is never authoritative.","kanji":[
-{"id":"k1","char":"日","meanings":["día","sol"],"onyomi":["ニチ","ジツ"],"kunyomi":["ひ","か"],"level":1,"strokes":[[[18,18],[88,18]],[[82,18],[82,88],[18,88]],[[18,53],[82,53]]],"components":["日"]},
-{"id":"k2","char":"月","meanings":["mes","luna"],"onyomi":["ゲツ","ガツ"],"kunyomi":["つき"],"level":1,"strokes":[[[35,15],[28,45],[22,88]],[[35,15],[82,15],[82,88]],[[31,48],[75,48]],[[28,70],[75,70]]],"components":["月"]},
-{"id":"k3","char":"人","meanings":["persona"],"onyomi":["ジン","ニン"],"kunyomi":["ひと"],"level":1,"strokes":[[[49,16],[39,48],[20,86]],[[51,18],[61,49],[88,86]]],"components":["人"]},
-{"id":"k4","char":"大","meanings":["grande"],"onyomi":["ダイ","タイ"],"kunyomi":["おお-きい"],"level":1,"strokes":[[[50,14],[50,88]],[[16,43],[84,43]],[[50,43],[22,87]]],"components":["大"]},
-{"id":"k5","char":"学","meanings":["estudiar","aprendizaje"],"onyomi":["ガク"],"kunyomi":["まな-ぶ"],"level":1,"strokes":[[[20,22],[80,22]],[[35,10],[50,30],[65,10]],[[25,42],[75,42]],[[50,42],[50,88]],[[28,64],[72,64]],[[28,82],[72,82]]],"components":["子","⺍"]},
-{"id":"k6","char":"生","meanings":["vida","nacer"],"onyomi":["セイ","ショウ"],"kunyomi":["い-きる","う-む"],"level":1,"strokes":[[[51,12],[45,38]],[[22,28],[79,28]],[[50,39],[50,87]],[[22,55],[79,55]],[[21,84],[82,84]]],"components":["生"]},
-{"id":"k7","char":"先","meanings":["antes","anterior"],"onyomi":["セン"],"kunyomi":["さき"],"level":1,"strokes":[[[45,12],[30,43]],[[20,28],[73,28]],[[49,17],[70,43]],[[22,51],[78,51]],[[51,50],[51,88]],[[33,88],[69,88]]],"components":["⺧","儿"]},
-{"id":"k8","char":"行","meanings":["ir","hacer"],"onyomi":["コウ","ギョウ"],"kunyomi":["い-く","おこな-う"],"level":1,"strokes":[[[20,22],[43,22]],[[20,48],[43,48]],[[30,13],[30,88]],[[54,20],[85,20]],[[55,50],[85,50]],[[55,82],[85,82]]],"components":["彳","行"]},
-{"id":"k9","char":"見","meanings":["ver","mirar"],"onyomi":["ケン"],"kunyomi":["み-る"],"level":1,"strokes":[[[22,18],[78,18]],[[22,42],[78,42]],[[22,18],[22,68]],[[78,18],[78,68]],[[22,68],[78,68]],[[50,18],[50,68]],[[42,74],[30,88]],[[58,74],[72,88]]],"components":["目","儿"]},
-{"id":"k10","char":"食","meanings":["comer","comida"],"onyomi":["ショク"],"kunyomi":["た-べる","く-う"],"level":1,"strokes":[[[24,22],[50,12],[76,22]],[[26,31],[74,31]],[[50,31],[50,52]],[[28,52],[73,52]],[[30,62],[23,84]],[[50,60],[50,87]],[[70,61],[79,84]]],"components":["食"]}
-],"vocab":[
-{"id":"v1","word":"日本","reading":"にほん","meaning":{"es":"Japón","en":"Japan"},"kanji":["k1"],"level":1,"sentence":"日本へ行きます。","sentenceEs":"Voy a Japón."},
-{"id":"v2","word":"日曜日","reading":"にちようび","meaning":{"es":"domingo","en":"Sunday"},"kanji":["k1"],"level":1,"sentence":"日曜日に休みます。","sentenceEs":"Descanso el domingo."},
-{"id":"v3","word":"月曜日","reading":"げつようび","meaning":{"es":"lunes","en":"Monday"},"kanji":["k2"],"level":1,"sentence":"月曜日に学校へ行きます。","sentenceEs":"Voy a la escuela el lunes."},
-{"id":"v4","word":"人","reading":"ひと","meaning":{"es":"persona","en":"person"},"kanji":["k3"],"level":1,"sentence":"あの人は先生です。","sentenceEs":"Esa persona es profesor/a."},
-{"id":"v5","word":"大学","reading":"だいがく","meaning":{"es":"universidad","en":"university"},"kanji":["k4","k5"],"level":1,"sentence":"大学で日本語を学びます。","sentenceEs":"Estudio japonés en la universidad."},
-{"id":"v6","word":"学生","reading":"がくせい","meaning":{"es":"estudiante","en":"student"},"kanji":["k5","k6"],"level":1,"sentence":"私は学生です。","sentenceEs":"Soy estudiante."},
-{"id":"v7","word":"先生","reading":"せんせい","meaning":{"es":"profesor/a","en":"teacher"},"kanji":["k7","k6"],"level":1,"sentence":"先生に聞きます。","sentenceEs":"Pregunto al profesor/a."},
-{"id":"v8","word":"行く","reading":"いく","meaning":{"es":"ir","en":"to go"},"kanji":["k8"],"level":1,"sentence":"学校へ行きます。","sentenceEs":"Voy a la escuela."},
-{"id":"v9","word":"見る","reading":"みる","meaning":{"es":"ver","en":"to see"},"kanji":["k9"],"level":1,"sentence":"映画を見ます。","sentenceEs":"Veo una película."},
-{"id":"v10","word":"食べる","reading":"たべる","meaning":{"es":"comer","en":"to eat"},"kanji":["k10"],"level":1,"sentence":"ご飯を食べます。","sentenceEs":"Como."}
-],"grammar":[
-{"id":"g1","title":"は: tema","level":1,"explanation":{"es":"は marca el tema de la oración. No significa siempre 'es'; presenta de qué estamos hablando.","en":"は marks the topic of a sentence."},"pattern":"N は ...です","example":"私は学生です。","translation":"Soy estudiante.","exercise":{"type":"choice","question":"¿Qué función cumple は aquí?","choices":["Marca el tema","Marca el objeto directo","Marca el lugar"],"answer":0}},
-{"id":"g2","title":"を: objeto","level":1,"explanation":{"es":"を marca normalmente el objeto directo de una acción. Se pronuncia 'o'.","en":"を commonly marks the direct object."},"pattern":"N を V","example":"ご飯を食べます。","translation":"Como.","exercise":{"type":"choice","question":"Completa: 映画___見ます。","choices":["は","を","に"],"answer":1}},
-{"id":"g3","title":"に: destino / tiempo","level":1,"explanation":{"es":"に puede marcar un punto de destino o un momento concreto, entre otros usos.","en":"に can mark a destination or a specific time, among other uses."},"pattern":"Lugar に 行きます","example":"大学に行きます。","translation":"Voy a la universidad.","exercise":{"type":"choice","question":"Completa: 学校___行きます。","choices":["に","を","で"],"answer":0}}
-],"culture":[{"title":"です y la cortesía","body":"です aparece en el registro cortés y declarativo. No equivale mecánicamente a un único verbo español. El nivel de cortesía depende del contexto y de la relación entre hablantes."},{"title":"El silencio conversacional","body":"Las pausas y respuestas breves pueden cumplir funciones conversacionales distintas. Conviene aprender expresiones como そうですか dentro de situaciones, no como traducciones palabra por palabra."}]}
+{
+  "version": 1,
+  "sourcePolicy": "Curated seed curriculum. Expand from licensed structured sources; generated content is never authoritative.",
+  "kanji": [
+    {
+      "id": "k1",
+      "char": "日",
+      "meanings": [
+        "día",
+        "sol"
+      ],
+      "onyomi": [
+        "ニチ",
+        "ジツ"
+      ],
+      "kunyomi": [
+        "ひ",
+        "か"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            18,
+            18
+          ],
+          [
+            88,
+            18
+          ]
+        ],
+        [
+          [
+            82,
+            18
+          ],
+          [
+            82,
+            88
+          ],
+          [
+            18,
+            88
+          ]
+        ],
+        [
+          [
+            18,
+            53
+          ],
+          [
+            82,
+            53
+          ]
+        ]
+      ],
+      "components": [
+        "日"
+      ]
+    },
+    {
+      "id": "k2",
+      "char": "月",
+      "meanings": [
+        "mes",
+        "luna"
+      ],
+      "onyomi": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "kunyomi": [
+        "つき"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            35,
+            15
+          ],
+          [
+            28,
+            45
+          ],
+          [
+            22,
+            88
+          ]
+        ],
+        [
+          [
+            35,
+            15
+          ],
+          [
+            82,
+            15
+          ],
+          [
+            82,
+            88
+          ]
+        ],
+        [
+          [
+            31,
+            48
+          ],
+          [
+            75,
+            48
+          ]
+        ],
+        [
+          [
+            28,
+            70
+          ],
+          [
+            75,
+            70
+          ]
+        ]
+      ],
+      "components": [
+        "月"
+      ]
+    },
+    {
+      "id": "k3",
+      "char": "人",
+      "meanings": [
+        "persona"
+      ],
+      "onyomi": [
+        "ジン",
+        "ニン"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            49,
+            16
+          ],
+          [
+            39,
+            48
+          ],
+          [
+            20,
+            86
+          ]
+        ],
+        [
+          [
+            51,
+            18
+          ],
+          [
+            61,
+            49
+          ],
+          [
+            88,
+            86
+          ]
+        ]
+      ],
+      "components": [
+        "人"
+      ]
+    },
+    {
+      "id": "k4",
+      "char": "大",
+      "meanings": [
+        "grande"
+      ],
+      "onyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "kunyomi": [
+        "おお-きい"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            50,
+            14
+          ],
+          [
+            50,
+            88
+          ]
+        ],
+        [
+          [
+            16,
+            43
+          ],
+          [
+            84,
+            43
+          ]
+        ],
+        [
+          [
+            50,
+            43
+          ],
+          [
+            22,
+            87
+          ]
+        ]
+      ],
+      "components": [
+        "大"
+      ]
+    },
+    {
+      "id": "k5",
+      "char": "学",
+      "meanings": [
+        "estudiar",
+        "aprendizaje"
+      ],
+      "onyomi": [
+        "ガク"
+      ],
+      "kunyomi": [
+        "まな-ぶ"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            20,
+            22
+          ],
+          [
+            80,
+            22
+          ]
+        ],
+        [
+          [
+            35,
+            10
+          ],
+          [
+            50,
+            30
+          ],
+          [
+            65,
+            10
+          ]
+        ],
+        [
+          [
+            25,
+            42
+          ],
+          [
+            75,
+            42
+          ]
+        ],
+        [
+          [
+            50,
+            42
+          ],
+          [
+            50,
+            88
+          ]
+        ],
+        [
+          [
+            28,
+            64
+          ],
+          [
+            72,
+            64
+          ]
+        ],
+        [
+          [
+            28,
+            82
+          ],
+          [
+            72,
+            82
+          ]
+        ]
+      ],
+      "components": [
+        "子",
+        "⺍"
+      ]
+    },
+    {
+      "id": "k6",
+      "char": "生",
+      "meanings": [
+        "vida",
+        "nacer"
+      ],
+      "onyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "kunyomi": [
+        "い-きる",
+        "う-む"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            51,
+            12
+          ],
+          [
+            45,
+            38
+          ]
+        ],
+        [
+          [
+            22,
+            28
+          ],
+          [
+            79,
+            28
+          ]
+        ],
+        [
+          [
+            50,
+            39
+          ],
+          [
+            50,
+            87
+          ]
+        ],
+        [
+          [
+            22,
+            55
+          ],
+          [
+            79,
+            55
+          ]
+        ],
+        [
+          [
+            21,
+            84
+          ],
+          [
+            82,
+            84
+          ]
+        ]
+      ],
+      "components": [
+        "生"
+      ]
+    },
+    {
+      "id": "k7",
+      "char": "先",
+      "meanings": [
+        "antes",
+        "anterior"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "さき"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            45,
+            12
+          ],
+          [
+            30,
+            43
+          ]
+        ],
+        [
+          [
+            20,
+            28
+          ],
+          [
+            73,
+            28
+          ]
+        ],
+        [
+          [
+            49,
+            17
+          ],
+          [
+            70,
+            43
+          ]
+        ],
+        [
+          [
+            22,
+            51
+          ],
+          [
+            78,
+            51
+          ]
+        ],
+        [
+          [
+            51,
+            50
+          ],
+          [
+            51,
+            88
+          ]
+        ],
+        [
+          [
+            33,
+            88
+          ],
+          [
+            69,
+            88
+          ]
+        ]
+      ],
+      "components": [
+        "⺧",
+        "儿"
+      ]
+    },
+    {
+      "id": "k8",
+      "char": "行",
+      "meanings": [
+        "ir",
+        "hacer"
+      ],
+      "onyomi": [
+        "コウ",
+        "ギョウ"
+      ],
+      "kunyomi": [
+        "い-く",
+        "おこな-う"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            20,
+            22
+          ],
+          [
+            43,
+            22
+          ]
+        ],
+        [
+          [
+            20,
+            48
+          ],
+          [
+            43,
+            48
+          ]
+        ],
+        [
+          [
+            30,
+            13
+          ],
+          [
+            30,
+            88
+          ]
+        ],
+        [
+          [
+            54,
+            20
+          ],
+          [
+            85,
+            20
+          ]
+        ],
+        [
+          [
+            55,
+            50
+          ],
+          [
+            85,
+            50
+          ]
+        ],
+        [
+          [
+            55,
+            82
+          ],
+          [
+            85,
+            82
+          ]
+        ]
+      ],
+      "components": [
+        "彳",
+        "行"
+      ]
+    },
+    {
+      "id": "k9",
+      "char": "見",
+      "meanings": [
+        "ver",
+        "mirar"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "み-る"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            22,
+            18
+          ],
+          [
+            78,
+            18
+          ]
+        ],
+        [
+          [
+            22,
+            42
+          ],
+          [
+            78,
+            42
+          ]
+        ],
+        [
+          [
+            22,
+            18
+          ],
+          [
+            22,
+            68
+          ]
+        ],
+        [
+          [
+            78,
+            18
+          ],
+          [
+            78,
+            68
+          ]
+        ],
+        [
+          [
+            22,
+            68
+          ],
+          [
+            78,
+            68
+          ]
+        ],
+        [
+          [
+            50,
+            18
+          ],
+          [
+            50,
+            68
+          ]
+        ],
+        [
+          [
+            42,
+            74
+          ],
+          [
+            30,
+            88
+          ]
+        ],
+        [
+          [
+            58,
+            74
+          ],
+          [
+            72,
+            88
+          ]
+        ]
+      ],
+      "components": [
+        "目",
+        "儿"
+      ]
+    },
+    {
+      "id": "k10",
+      "char": "食",
+      "meanings": [
+        "comer",
+        "comida"
+      ],
+      "onyomi": [
+        "ショク"
+      ],
+      "kunyomi": [
+        "た-べる",
+        "く-う"
+      ],
+      "level": 5,
+      "strokes": [
+        [
+          [
+            24,
+            22
+          ],
+          [
+            50,
+            12
+          ],
+          [
+            76,
+            22
+          ]
+        ],
+        [
+          [
+            26,
+            31
+          ],
+          [
+            74,
+            31
+          ]
+        ],
+        [
+          [
+            50,
+            31
+          ],
+          [
+            50,
+            52
+          ]
+        ],
+        [
+          [
+            28,
+            52
+          ],
+          [
+            73,
+            52
+          ]
+        ],
+        [
+          [
+            30,
+            62
+          ],
+          [
+            23,
+            84
+          ]
+        ],
+        [
+          [
+            50,
+            60
+          ],
+          [
+            50,
+            87
+          ]
+        ],
+        [
+          [
+            70,
+            61
+          ],
+          [
+            79,
+            84
+          ]
+        ]
+      ],
+      "components": [
+        "食"
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v1",
+      "word": "日本",
+      "reading": "にほん",
+      "meaning": {
+        "es": "Japón",
+        "en": "Japan"
+      },
+      "kanji": [
+        "k1"
+      ],
+      "level": 1,
+      "sentence": "日本へ行きます。",
+      "sentenceEs": "Voy a Japón."
+    },
+    {
+      "id": "v2",
+      "word": "日曜日",
+      "reading": "にちようび",
+      "meaning": {
+        "es": "domingo",
+        "en": "Sunday"
+      },
+      "kanji": [
+        "k1"
+      ],
+      "level": 1,
+      "sentence": "日曜日に休みます。",
+      "sentenceEs": "Descanso el domingo."
+    },
+    {
+      "id": "v3",
+      "word": "月曜日",
+      "reading": "げつようび",
+      "meaning": {
+        "es": "lunes",
+        "en": "Monday"
+      },
+      "kanji": [
+        "k2"
+      ],
+      "level": 1,
+      "sentence": "月曜日に学校へ行きます。",
+      "sentenceEs": "Voy a la escuela el lunes."
+    },
+    {
+      "id": "v4",
+      "word": "人",
+      "reading": "ひと",
+      "meaning": {
+        "es": "persona",
+        "en": "person"
+      },
+      "kanji": [
+        "k3"
+      ],
+      "level": 1,
+      "sentence": "あの人は先生です。",
+      "sentenceEs": "Esa persona es profesor/a."
+    },
+    {
+      "id": "v5",
+      "word": "大学",
+      "reading": "だいがく",
+      "meaning": {
+        "es": "universidad",
+        "en": "university"
+      },
+      "kanji": [
+        "k4",
+        "k5"
+      ],
+      "level": 1,
+      "sentence": "大学で日本語を学びます。",
+      "sentenceEs": "Estudio japonés en la universidad."
+    },
+    {
+      "id": "v6",
+      "word": "学生",
+      "reading": "がくせい",
+      "meaning": {
+        "es": "estudiante",
+        "en": "student"
+      },
+      "kanji": [
+        "k5",
+        "k6"
+      ],
+      "level": 1,
+      "sentence": "私は学生です。",
+      "sentenceEs": "Soy estudiante."
+    },
+    {
+      "id": "v7",
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning": {
+        "es": "profesor/a",
+        "en": "teacher"
+      },
+      "kanji": [
+        "k7",
+        "k6"
+      ],
+      "level": 1,
+      "sentence": "先生に聞きます。",
+      "sentenceEs": "Pregunto al profesor/a."
+    },
+    {
+      "id": "v8",
+      "word": "行く",
+      "reading": "いく",
+      "meaning": {
+        "es": "ir",
+        "en": "to go"
+      },
+      "kanji": [
+        "k8"
+      ],
+      "level": 1,
+      "sentence": "学校へ行きます。",
+      "sentenceEs": "Voy a la escuela."
+    },
+    {
+      "id": "v9",
+      "word": "見る",
+      "reading": "みる",
+      "meaning": {
+        "es": "ver",
+        "en": "to see"
+      },
+      "kanji": [
+        "k9"
+      ],
+      "level": 1,
+      "sentence": "映画を見ます。",
+      "sentenceEs": "Veo una película."
+    },
+    {
+      "id": "v10",
+      "word": "食べる",
+      "reading": "たべる",
+      "meaning": {
+        "es": "comer",
+        "en": "to eat"
+      },
+      "kanji": [
+        "k10"
+      ],
+      "level": 1,
+      "sentence": "ご飯を食べます。",
+      "sentenceEs": "Como."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "は: tema",
+      "level": 5,
+      "explanation": {
+        "es": "は marca el tema de la oración. No significa siempre 'es'; presenta de qué estamos hablando.",
+        "en": "は marks the topic of a sentence."
+      },
+      "pattern": "N は ...です",
+      "example": "私は学生です。",
+      "translation": "Soy estudiante.",
+      "exercise": {
+        "type": "choice",
+        "question": "¿Qué función cumple は aquí?",
+        "choices": [
+          "Marca el tema",
+          "Marca el objeto directo",
+          "Marca el lugar"
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "id": "g2",
+      "title": "を: objeto",
+      "level": 5,
+      "explanation": {
+        "es": "を marca normalmente el objeto directo de una acción. Se pronuncia 'o'.",
+        "en": "を commonly marks the direct object."
+      },
+      "pattern": "N を V",
+      "example": "ご飯を食べます。",
+      "translation": "Como.",
+      "exercise": {
+        "type": "choice",
+        "question": "Completa: 映画___見ます。",
+        "choices": [
+          "は",
+          "を",
+          "に"
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "id": "g3",
+      "title": "に: destino / tiempo",
+      "level": 5,
+      "explanation": {
+        "es": "に puede marcar un punto de destino o un momento concreto, entre otros usos.",
+        "en": "に can mark a destination or a specific time, among other uses."
+      },
+      "pattern": "Lugar に 行きます",
+      "example": "大学に行きます。",
+      "translation": "Voy a la universidad.",
+      "exercise": {
+        "type": "choice",
+        "question": "Completa: 学校___行きます。",
+        "choices": [
+          "に",
+          "を",
+          "で"
+        ],
+        "answer": 0
+      }
+    }
+  ],
+  "culture": [
+    {
+      "title": "です y la cortesía",
+      "body": "です aparece en el registro cortés y declarativo. No equivale mecánicamente a un único verbo español. El nivel de cortesía depende del contexto y de la relación entre hablantes."
+    },
+    {
+      "title": "El silencio conversacional",
+      "body": "Las pausas y respuestas breves pueden cumplir funciones conversacionales distintas. Conviene aprender expresiones como そうですか dentro de situaciones, no como traducciones palabra por palabra."
+    }
+  ]
+}

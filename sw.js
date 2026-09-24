@@ -1,4 +1,4 @@
-const CACHE='kanji-kori-v1';
+const CACHE='kanji-kori-v2';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./css/app.css','./js/app.js','./js/db.js','./js/router.js','./js/data.js','./js/lesson.js','./js/stroke.js','./data/curriculum.json','./data/kana.json','./assets/icon.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
