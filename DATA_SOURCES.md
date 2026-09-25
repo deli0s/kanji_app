@@ -1,14 +1,12 @@
-# Kanji data sources
+# Kanji data source
 
-The Jōyō Kanji records are generated from the CC-BY-SA 4.0 dataset published by `jkindrix/japanese-language-data`, whose kanji data is derived from KANJIDIC2/EDRDG. The generated records use the Spanish and English meanings, Japanese on'yomi/kun'yomi, stroke count, grade and radical/component information from that source.
+The 2,136 Jōyō Kanji records are loaded from the open `jkindrix/japanese-language-data` Jōyō dataset, derived from KANJIDIC2.
 
-JLPT levels come from the same project's Waller-derived JLPT classification. JLPT classifications are community-derived, not official JLPT lists.
+Source: https://github.com/jkindrix/japanese-language-data
+Jōyō dataset: https://raw.githubusercontent.com/jkindrix/japanese-language-data/main/data/core/kanji-joyo.json
 
-Example vocabulary is derived from the project's common JMdict-derived word dataset.
+The app normalizes records by the Kanji character itself and derives a stable ID from Unicode, avoiding array-position/index associations. The normalized 2,136-record dataset is persisted in IndexedDB after the first successful download, so subsequent study sessions work offline.
 
-Sources:
-- https://github.com/jkindrix/japanese-language-data
-- https://www.edrdg.org/edrdg/licence.html
-- https://kanjivg.tagaini.net/ (stroke-order source used by the project; this build keeps stroke paths separate from dictionary metadata)
+The source documents English and Spanish meanings, on'yomi, kun'yomi, grade, current Waller JLPT classification, stroke count and radical/component information. Jōyō count and field definitions are documented in the source repository.
 
-The app deliberately keys every Kanji record by its character and a stable Unicode-based ID. Array position is never used to associate metadata with a character.
+License/attribution: the upstream project states CC-BY-SA 4.0 / EDRDG-derived licensing. See the upstream repository and its ATTRIBUTION.md before redistribution.
